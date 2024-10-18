@@ -1,0 +1,9 @@
+{
+  "devDependencies": {
+    "cypress": "^13.15.0",
+    "mochawesome": "^7.1.3"
+  },
+  "scripts": {
+    "test-login": "npx cypress run --reporter mochawesome --spec 'cypress/e2e/login.cy.js'"
+  }
+}
