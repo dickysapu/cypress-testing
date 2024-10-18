@@ -16,5 +16,7 @@ describe("Login Test", () => {
 
     // Verifikasi apakah tulisan "dashboard" muncul di halaman setelah login
     cy.contains("Dashboard").should("be.visible");
+
+    //tambahkan notes
   });
 });
